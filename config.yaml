@@ -1,0 +1,22 @@
+# RoleRadar Configuration
+
+user:
+  email: ""
+  resume_path: "resume.txt"
+
+search:
+  job_titles:
+    - "Product Manager"
+    - "Senior Product Manager"
+    - "Group Product Manager"
+  industries:
+    - "AI/ML"
+    - "Fintech"
+    - "Consumer Tech"
+  location: "Remote"
+
+scoring:
+  min_score: 6
+
+schedule:
+  run_time: "07:00"
